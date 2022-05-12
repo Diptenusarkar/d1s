@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+/* font-family: 'Saira Stencil One', cursive; */
+
+@font-face {
+    font-family: himaloy;
+    src: url(../assets/vendor/font/bangla/Unicode/Li\ Himaloy\ Unicode.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: himaloy_italic;
+    src: url(../assets/vendor/font/bangla/Unicode/Li\ Himaloy\ Unicode\ Italic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*! Reste end hear  */
+
+/* body {
+    background-image: url(../assets/bg-main-body.svg);
+    z-index: 99999999;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+} */
+
+.header {
+    background-color: #111416;
+}
+
+.nav {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 5rem;
+    letter-spacing: 2.2px;
+    background: -webkit-linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
+    background: linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__hero {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.header__hero h1 {
+    font-family: himaloy;
+    font-size: 7.5rem;
+    font-weight: 100;
+    text-align: center;
+    background: -webkit-linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
+    background: linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__hero a {
+    text-decoration: none;
+    padding: 1.5rem 2.5rem;
+    margin: 10rem auto 0 auto;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 4px;
+    border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1;
+    /* border-image-slice: 1; */
+}
+
+.header__hero a i {
+    margin-left: 1rem;
+}
