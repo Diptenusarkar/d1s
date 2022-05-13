@@ -80,18 +80,125 @@ nav a {
     -webkit-text-fill-color: transparent;
 }
 
-.header__hero a {
+.btn {
     text-decoration: none;
-    padding: 1.5rem 2.5rem;
     margin: 10rem auto 0 auto;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
     border-style: solid;
-    border-width: 4px;
     border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1;
-    /* border-image-slice: 1; */
 }
 
-.header__hero a i {
+.btn-big {
+    padding: 1.5rem 2.5rem;
+    font-size: 2rem;
+    border-width: 4px;
+}
+
+.btn-small {
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    border-width: 4px;
+}
+
+.btn-white {
+    color: rgb(255, 255, 255);
+}
+
+.btn-black {
+    color: black;
+}
+
+.btn i {
     margin-left: 1rem;
+}
+
+/*
+======================================
+        !header hero end hear 
+======================================
+*/
+
+.main {
+    background-color: whitesmoke;
+}
+
+.main .section__about {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 0 4%;
+    /* padding: auto 0; */
+}
+
+.main .section__about .section__about--box {
+    height: 55rem;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* padding: ; */
+}
+
+.main .section__about .section__about--box img {
+    height: 45rem;
+}
+
+.main .section__about .section__about--box p {
+    font-size: 2.3rem;
+    text-align: justify;
+}
+
+/*
+======================================
+        !Section about end hear
+======================================
+*/
+
+.section__significant {
+    background-color: #111416;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 4%;
+}
+
+.section__significant-box {
+    width: 32%;
+    height: 20rem;
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1;
+    padding: 2rem 0;
+}
+
+.section__significant-box h2 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    background: -webkit-linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
+    background: linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__significant-box p {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.815);
+    text-align: justify;
+}
+
+/*
+======================================
+    !Section significant end hear
+======================================
+*/
+
+footer {
+    background-color: #111416;
+    color: white;
+    padding: 2rem 4%;
+}
+
+.footer #time {
+    font-size: 2rem;
 }

@@ -9,8 +9,10 @@
     <meta name="generator" content="Dsky Solution v1.0.0" />
     <meta property="og:title" content="d1s is a students community website" />
     <meta property="og:locale" content="en_IN" />
-    <meta name="description" content="d1s.in is a community forum for university & college going students. Where students can find all information about his collage or university." />
-    <meta property="og:description" content="d1s.in is a community forum for university & college going students. Where students can find all information about his collage or university." />
+    <meta name="description"
+        content="d1s.in is a community forum for university & college going students. Where students can find all information about his collage or university." />
+    <meta property="og:description"
+        content="d1s.in is a community forum for university & college going students. Where students can find all information about his collage or university." />
     <link rel="canonical" href="https://d1s.in/" />
     <meta property="og:url" content="https://d1s.in/" />
     <meta property="og:site_name" content="d1s students community website" />
@@ -34,6 +36,9 @@
 
     <!-- !Bootstrap icon  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- !media screen  -->
+    <link rel="stylesheet" media="" href="style.css">
 </head>
 
 <body>
@@ -45,9 +50,77 @@
         <section class="header__hero">
             <h1>আমরা সবাই জানি শিক্ষা জাতির মেরুদন্ড! <br>আবার শুরু করা যাক।</h1>
 
-            <a href="assets/icon/cloud-arrow-down.svg" download>Download App<i class="bi bi-cloud-download"></i></a>
+            <a href="app/app-test.pdf" download class="btn btn-big btn-white">Download App<i
+                    class="bi bi-cloud-download"></i></a>
         </section>
     </header>
+
+    <main class="main">
+        <section class="section__about">
+            <div class="section__about--box">
+                <img src="./assets/svg/Writing room-bro.svg" alt="Background img">
+            </div>
+
+            <div class="section__about--box">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem non saepe tenetur. Fugit quae quis
+                    consectetur! Nam optio, minima dignissimos vero quam odio ipsam ducimus voluptatem aut explicabo
+                    quasi, id inventore ex enim magnam rerum.
+                </p>
+
+                <a href="app/app-test.pdf" download class="btn btn-small btn-black">Download App<i
+                        class="bi bi-cloud-download"></i></a>
+            </div>
+        </section>
+
+        <section class="section__significant">
+            <div class="section__significant-box section__significant-box1">
+                <h2>We don't collect data</h2>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, in facere atque totam iste
+                    esse. Libero praesentium natus vel quibusdam? Magni provident obcaecati earum, non quibusdam autem
+                    officia numquam dolor nihil cum molestias vitae pariatur.
+                </p>
+            </div>
+
+            <div class="section__significant-box section__significant-box2">
+                <h2>Subscription not apply</h2>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, in facere atque totam iste
+                    esse. Libero praesentium natus vel quibusdam? Magni provident obcaecati earum, non quibusdam autem
+                    officia numquam dolor nihil cum molestias vitae pariatur.
+                </p>
+            </div>
+
+            <div class="section__significant-box section__significant-box2">
+                <h2>Spam & ads free</h2>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, in facere atque totam iste
+                    esse. Libero praesentium natus vel quibusdam? Magni provident obcaecati earum, non quibusdam autem
+                    officia numquam dolor nihil cum molestias vitae pariatur.
+                </p>
+            </div>
+        </section>
+
+        <!-- <section class="section__mission">
+            text hear
+        </section> -->
+    </main>
+
+    <footer class="footer">
+        <div id="time">Time right now : <span></span></div>
+    </footer>
+
+    <script>
+        const timer = document.querySelector('#time span')
+
+        setInterval(() => {
+            timer.innerText = new Date().toLocaleString()
+        }, 1000)
+    </script>
 </body>
 
 </html>
