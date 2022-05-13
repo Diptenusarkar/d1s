@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: himaloy;
-    src: url(../assets/vendor/font/bangla/Unicode/Li\ Himaloy\ Unicode.ttf) format("truetype");
+    src: url(../assets/vendor/font/bangla/Unicode/himaloy.ttf) format("truetype");
 }
 
 @font-face {
     font-family: himaloy_italic;
-    src: url(../assets/vendor/font/bangla/Unicode/Li\ Himaloy\ Unicode\ Italic.ttf);
+    src: url(../assets/vendor/font/bangla/Unicode/himaloy_italic.ttf);
 }
 
 * {
