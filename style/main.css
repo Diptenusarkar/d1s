@@ -268,9 +268,19 @@ footer {
     text-align: center;
 }
 
+.footer__linkbox a {
+    padding: 1.5rem 2.5rem;
+    border-radius: .8rem;
+    transition: all .4s;
+}
+
+.footer__linkbox a:hover {
+    background-color: rgba(245, 245, 245, 0.100);
+}
+
 .btn-footer {
     font-size: 2rem;
-    margin: 0 3rem;
+    margin: 0 1rem;
 }
 
 .btn-footer i {
