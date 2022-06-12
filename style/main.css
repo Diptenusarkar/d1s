@@ -55,7 +55,7 @@ a {
     height: 100%;
 }
 
-.text-box {
+/* .text-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -70,9 +70,9 @@ a {
     font-family: 'Saira Stencil One', cursive;
     mix-blend-mode: multiply;
 
-}
+} */
 
-/* nav a {
+nav a {
     font-family: 'Saira Stencil One', cursive;
     font-size: 5rem;
     letter-spacing: 2.2px;
@@ -81,7 +81,7 @@ a {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-} */
+}
 
 .header__hero {
     height: 85vh;
